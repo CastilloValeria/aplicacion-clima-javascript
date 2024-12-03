@@ -17,7 +17,6 @@ function fetchWeather(city){
     .then(data =>showWeatherData(data))
 }
 
-
 function showWeatherData(data){
     const divResponseData = document.getElementById('responseData')
     divResponseData.innerHTML = ''
